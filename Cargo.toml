@@ -1,0 +1,8 @@
+[package]
+name = "naga-unreachable"
+version = "0.1.0"
+edition = "2021"
+publish = false
+
+[dependencies]
+naga = { version = "=0.8.5", features = ["wgsl-in", "spv-out"] }
